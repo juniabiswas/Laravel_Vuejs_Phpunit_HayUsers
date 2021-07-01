@@ -1,3 +1,25 @@
+<h3>All about the project</h3>
+<p>
+    <ul>
+        <li> A user system with authentication and registration controllers/views. </li> 
+        <li> Included a user_attributes table migration that stores things like gender, birthday.</li>
+        <li> A user profile page for looged in users and lets them update their attributes and user data/ </li>
+        <li> Exposes a REST API that can be used to validate user credentials and get/update their attributes</li>
+            <ul> <h5>List of APIs <h5>
+                <li> <b>User Registration</b> POST : api/auth/signup </li>
+                <li> <b>User Login</b> POST: api/auth/login </li>
+                <li> <b>Show logged in user</b> GET : api/auth/user (protected)</li>
+                <li> <b>Logout logged in user</b> GET : api/auth/logout (protected)</li>
+                <li> <b>Get logged in user profile data</b> GET : api/auth/show (protected)</li>
+                 <li><b>Update logged in user profile data</b> PUT : api/auth/update(protected) </li>
+              </ul> 
+        <li> PHPUnit tests that provide code coverage for all the developed features.</li>
+      </ul>          
+</p>    
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
